@@ -13,8 +13,8 @@ public class AddGiftVouchers extends LoginAdmin {
 @Test
     public void addGiftVoucher(){
     NavigationMenu.goToGiftVoucher();
-    GiftVoucher.checkForExistsGiftVoucherIfExistsDell("Test1Code");
-    AddNewGiftVoucher.createNewGiftVoucher("Test1Code","Nikolay","Iveto","50");
+    GiftVoucher.checkForExistsGiftVoucherIfExistsDell("code1");
+    AddNewGiftVoucher.createNewGiftVoucher("code1","Nikolay","Iveto","50");
     AddNewGiftVoucher.verifyGiftVoucherAdd("Success: You have modified vouchers!","HAVE A BUG!!");
 }
 }
