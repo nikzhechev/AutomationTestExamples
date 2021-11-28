@@ -3,9 +3,8 @@ package core;
 import org.testng.annotations.BeforeMethod;
 import pages.AdminDashbord;
 import pages.AdminLogin;
-import utils.Browser;
 
-public class LoginAdmin extends LoginPageTest {
+public class LoginAdmin extends OpenChromeTest {
 
     @BeforeMethod
     public void loginAdminPage() {

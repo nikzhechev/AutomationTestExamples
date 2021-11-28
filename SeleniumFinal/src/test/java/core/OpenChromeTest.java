@@ -4,11 +4,11 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import utils.Browser;
 
-public class LoginPageTest {
+public class OpenChromeTest {
 
     @BeforeMethod
     public void setupChrome() {
-        Browser.openPage();
+        Browser.openBrowser();
 
     }
 

@@ -1,10 +1,8 @@
 package positive;
 
 import core.LoginAdmin;
-import core.LoginPageTest;
 import org.testng.annotations.Test;
 import pages.AddNewGiftVoucher;
-import pages.AdminLogin;
 import pages.GiftVoucher;
 import pages.NavigationMenu;
 

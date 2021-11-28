@@ -10,7 +10,7 @@ public class Browser {
     /**
      * Open Chrome Browser driver
      */
-    public static void openPage() {
+    public static void openBrowser() {
         System.setProperty("webdriver.chrome.driver", "D:\\BrowserDriver\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
